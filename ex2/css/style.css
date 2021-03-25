@@ -1,0 +1,226 @@
+@font-face{
+    src:url(../fonts/Lato-Regular.ttf);
+    font-family: Lato;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, section, footer {
+    display: block;
+}
+
+body{
+    font-family: Lato;
+    font-size: 14px;
+
+}
+
+header{
+    width:100%;
+    background-color: #ED4C5C;     
+}
+
+header img{
+    display: block;
+    margin-left: 89px;
+    border-radius: 15px;
+}
+
+#logo {
+    background-image:url("../images/SVG/logo1.svg");
+    background-repeat: no-repeat;
+    background-position: 51.45px 60.8px;
+    padding:59px 0px 48px 86px;
+    display: block;
+    font-size:18px;
+    color: #FFFFFF;
+    width: 180px;
+}
+
+nav a {
+    color:#FFFFFF;
+    margin-left:26px;
+}
+
+nav{
+    margin-bottom: 49px;
+    display: block;
+}
+
+nav > :nth-child(1){
+    margin-left: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: #ED4C5C;
+}
+
+a:hover{
+    color:gray;
+}
+
+button{
+    padding:17px 53px 16px 52px;
+    margin: 45px 45px 55px 50px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    color:#ED4C5C;
+    border:none;
+    font-family: Lato;
+}
+
+main{
+    height: 100%;
+    width:100%;
+}
+
+.sec1{
+    background-color: #FFFFFF;
+}
+
+.sec1 h1{
+    margin: 56px 0px 0px 50px;
+    font-size: 36px;
+}
+
+.LearnMore{
+    margin: 0px 0px 40.72px 50px;
+}
+
+.sec1 p{
+    height:83px;
+    width:445px;
+    margin: 30px 945px 20px 50px;
+}
+
+.box{
+    width:350px;
+    height: 248.86px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin: 40.72px 0px 63px 30px;
+    display: inline-block;
+}
+
+.img1{
+    background-image: url(../images/Aviadn.png);
+}
+
+.img2{
+    background-image: url(../images/may.png);
+}
+
+.img3{
+    background-image: url(../images/NOORADI.png);
+} 
+
+.box a{
+    background-color: #FFFFFF;
+    display: inline-table;
+    width:350px;
+    height:40px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 13px;
+    margin-top: 215px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.sec2{
+    background-color:#F5F4F4;
+    height:657px;
+}
+
+.sec2 h1{
+    padding: 57px 0px 0px 50px;
+    font-size: 36px;
+}
+
+.hobbies{
+    height: 226px;
+    white-space: nowrap;
+    display: flex;     
+}
+
+
+.box2 {
+    background-color: #FFFFFF;
+    display: inline-block;
+    width:255px;
+    height:226px;
+    margin: 56px 30px 271px 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size:18px;
+    background-position: center;
+}
+
+.box2 h5{
+    margin-top: 150px;
+}
+
+.box2 span{
+    font-size: 12px;
+}
+
+.icon1{
+    margin-left: 50px;
+    background-image: url("../images/SVG/book.svg");
+}
+
+.icon2{
+    background-image: url("../images/SVG/passport.svg");
+}
+
+.icon3{
+    background-image: url("../images/SVG/coding.svg");
+}
+
+.icon4{
+    background-image: url("../images/SVG/dog.svg");
+}
+
+footer{
+    background-color: #ED4C5C;
+    height:80px;
+
+}
+
+footer h3{
+    display: inline-block;
+    font-size:26px;    
+}
+
+footer a{
+    height: 30px;
+    width: 30x;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding: 0px 0px 5px 32px;
+}
+
+.links{
+    height: 32px;
+    width: 134x;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 29px 80px 19px 50px;
+}
+
+.Flink1{
+    background-image: url("../images/SVG/linkedin.svg");    
+}
+
+.Flink2{
+    background-image: url("../images/SVG/instagram.svg");
+}
+
+.Flink3{
+    background-image: url("../images/SVG/WhatsApp.svg");
+}
